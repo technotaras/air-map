@@ -67,7 +67,6 @@ export default function App() {
         <Swatch color="255,140,0" label="Гербера" />
         <Swatch color="220,20,60" label="Шахед" />
         <Swatch color="60,130,255" label="Орлан" />
-        <Swatch color="150,150,150" label="інше / невідомо" />
       </div>
 
       {hovered && !selected && (
