@@ -95,7 +95,7 @@ manifest.entries.forEach((entry, i) => {
     lon,
     targetType,
     hasCoords: hasRealCoords,
-    videoUrl: `/${entry.id}/video.mp4`,
+    videoUrl: `${entry.id}/video.mp4`,
     comment: visible,
   });
 

@@ -18,7 +18,7 @@ export default function VideoModal({ entry, onClose }) {
         </div>
         <video
           className="modal-video"
-          src={entry.videoUrl}
+          src={`${import.meta.env.BASE_URL}${entry.videoUrl}`}
           controls
           preload="metadata"
           playsInline
