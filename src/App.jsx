@@ -22,7 +22,7 @@ const TARGET_COLORS = {
 };
 const DEFAULT_COLOR = [150, 150, 150];
 
-const MAP_STYLE = 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json';
+const MAP_STYLE = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json';
 
 export default function App() {
   const [selected, setSelected] = useState(null);
