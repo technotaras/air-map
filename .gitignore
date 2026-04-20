@@ -2,6 +2,8 @@
 .claude/
 node_modules/
 dist/
+src/data/points.json
+
 dist-ssr/
 *.log
 .env
